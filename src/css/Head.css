@@ -1,0 +1,29 @@
+.Head {
+    font-family: Larish Neue;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.Head > h1 {
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-name {
+    font-size: 20vh;
+}
+
+.Head > p {
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,1 @@
+change sections to grid instead of flex

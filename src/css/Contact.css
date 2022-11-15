@@ -1,0 +1,21 @@
+.Contact {
+    font-family: Larish Neue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact > h1 {
+    text-transform: uppercase;
+    display: flex;
+    font-size: 12vh;
+}
+
+#contact-links > a {
+    color: white;
+    margin: 10px;
+    font-size: 4vh;
+}

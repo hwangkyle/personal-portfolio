@@ -1,0 +1,21 @@
+:root {
+    --cards-h: 100%;
+    --cards-w: calc(100% - 15px); /* 15px == scrollbar length */
+}
+
+.Cards {
+    grid-area: 'content';
+    height: var(--cards-h);
+    width: var(--cards-w);
+    /* background-color: white; */
+    
+    /* display: grid;
+    grid:
+        'card card' / 50% 50%
+        'card card' / 50% 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    gap: 3vh;
+}

@@ -1,0 +1,48 @@
+:root {
+    --s: min(4.5vw, 10vh);
+    --w: .75em;
+    /* --pw: calc(var(--s) / 200);
+    --nw: calc(-1 * var(--pw)); */
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.5, 1);
+    width: fit-content;
+    grid-area: 'title';
+    justify-self: center;
+    font-style: italic;
+}
+
+.Title h1 {
+    /* --c: white; */
+
+    font-family: Heebo;
+    font-weight: 900;
+    font-size: var(--s);
+    color: black;
+    text-shadow:
+        /* var(--pw) 0 var(--c),
+        var(--nw) 0 var(--c), 
+        0 var(--pw) var(--c),
+        0 var(--nw) var(--c), 
+        var(--pw) var(--pw) var(--c),
+        var(--nw) var(--nw) var(--c),
+        var(--pw) var(--nw) var(--c),
+        var(--nw) var(--pw) var(--c); */
+        0 calc(-6 * var(--w)) #FFFFFF22,
+        0 calc(-5 * var(--w)) #FFFFFF44,
+        0 calc(-4 * var(--w)) #FFFFFF66,
+        0 calc(-3 * var(--w)) #FFFFFF88,
+        0 calc(-2 * var(--w)) #FFFFFFaa,
+        0 calc(-1 * var(--w)) #FFFFFFcc,
+        0 calc(1 * var(--w)) #FFFFFFcc,
+        0 calc(2 * var(--w)) #FFFFFFaa,
+        0 calc(3 * var(--w)) #FFFFFF88,
+        0 calc(4 * var(--w)) #FFFFFF66,
+        0 calc(5 * var(--w)) #FFFFFF44,
+        0 calc(6 * var(--w)) #FFFFFF22;
+    background-color: yellow;
+}
