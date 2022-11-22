@@ -17,7 +17,7 @@ export default function Experiences() {
         {
             title:"Northwestern University",
             caption:"Peer Mentor",
-            description:"Assisted students in reviewing and debugging their code"
+            description:"Assisted students in reviewing and debugging their code."
         }
     ]
     return (
