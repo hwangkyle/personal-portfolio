@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.6968963f.css",
-    "main.js": "/personal-portfolio/static/js/main.410d0463.js",
+    "main.js": "/personal-portfolio/static/js/main.f6d9b70f.js",
     "static/media/LarishNeueSemiboldRegular.otf": "/personal-portfolio/static/media/LarishNeueSemiboldRegular.cd973d9bc098f0a7aa4a.otf",
     "index.html": "/personal-portfolio/index.html",
     "main.6968963f.css.map": "/personal-portfolio/static/css/main.6968963f.css.map",
-    "main.410d0463.js.map": "/personal-portfolio/static/js/main.410d0463.js.map"
+    "main.f6d9b70f.js.map": "/personal-portfolio/static/js/main.f6d9b70f.js.map"
   },
   "entrypoints": [
     "static/css/main.6968963f.css",
-    "static/js/main.410d0463.js"
+    "static/js/main.f6d9b70f.js"
   ]
 }
